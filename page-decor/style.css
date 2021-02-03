@@ -302,7 +302,7 @@
     color: #b9b9b9;
     cursor: default;
 }
-.learn-more{
+.learn-more a{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
@@ -315,7 +315,7 @@
     transition: 0.2s;
     cursor: pointer;
 }
-.learn-more:hover{
+.learn-more a:hover{
     color: #ff0000;
     background: #ffffff;
     box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
