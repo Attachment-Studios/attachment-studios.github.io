@@ -1,8 +1,331 @@
 <html>
     <head>
         <title>Oh No! :(</title>
-        <link rel="stylesheet" href="page-decor/style.css">
         <link rel="shortcut icon" type="image/png" href="page-decor/icon.png">
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #252525;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 25px;
+}
+.menu ul li{
+    font-family: monospace;
+    list-style: none;
+    margin: 0 20px;
+    color: #b9b9b9;
+    text-shadow: 0 0 20px #252525;
+    cursor: pointer;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: monospace;
+    list-style: none;
+    margin: 0 20px;
+    color: #b9b9b9;
+    text-shadow: 0 0 20px #252525;
+    cursor: pointer;
+}
+.menu ul li a:hover{
+    font-family: monospace;
+    list-style: none;
+    margin: 0 20px;
+    color: #b9b9b9;
+    text-shadow: 0 0 20px #b9b9b9;
+    cursor: pointer;
+}
+.opened{
+    font-family: monospace;
+    list-style: none;
+    margin: 0 20px;
+    color: #ff7f50;
+    text-shadow: 0 0 20px #252525;
+    cursor: default;
+}
+.running:hover{
+    font-family: monospace;
+    list-style: none;
+    margin: 0 20px;
+    color: #ff7f50;
+    text-shadow: 0 0 20px #b9b9b9;
+    cursor: default;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 15%;
+    left: 70px;
+    position: absolute;
+    color: #b9b9b9;
+    cursor: default;
+}
+.intro-text{
+    width: 50%;
+    float: left;
+}
+.intro-text h1{
+    font-size: 43px;
+    width: 450px;
+    position: relative;
+    margin-left: 0;
+    background: linear-gradient(to right, #ff3e3e, #4099ff);
+    text-shadow: 0 0 40px #252525;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.intro-text h1:hover{
+    font-size: 43px;
+    width: 450px;
+    position: relative;
+    margin-left: 0;
+    background: linear-gradient(to right, #ff3e3e, #4099ff);
+    text-shadow: 0 0 30px #b9b9b9;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.intro-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 0 0 30px 0;
+    line-height: 25px;
+    color: #b9b9b9;
+}
+.about{
+    width: 50%;
+    height: 40%;
+    top: 30%;
+    left: 70px;
+    position: absolute;
+    color: #b9b9b9;
+    cursor: default;
+}
+.about p{
+    width: 650px;
+    font-size: 15px;
+    margin: 0 0 30px 0;
+    line-height: 25px;
+    color: #b9b9b9;
+}
+.about h3{
+    font-size: 21.5px;
+    width: 145px;
+    position: relative;
+    margin-left: 0;
+    background: linear-gradient(to right, #ff3e3e, #4099ff);
+    text-shadow: 0 0 20px #252525;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.about h3:hover{
+    font-size: 21.5px;
+    width: 145px;
+    position: relative;
+    margin-left: 0;
+    background: linear-gradient(to right, #ff3e3e, #4099ff);
+    text-shadow: 0 0 20px #b9b9b9;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.about b:hover{
+    font-size: 17.5px;
+    width: 145px;
+    position: relative;
+    margin-left: 0;
+    background: linear-gradient(to right, #6113c7, #22eebb);
+    text-shadow: 0 0 20px #b9b9b9;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.about a{
+    color: #b9b9b9;
+    text-decoration: none;
+    cursor: pointer;
+}
+.intro-text b:hover{
+    font-size: 17.5px;
+    width: 145px;
+    position: relative;
+    margin-left: 0;
+    background: linear-gradient(to right, #6113c7, #22eebb);
+    text-shadow: 0 0 20px #b9b9b9;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.right-panel{
+    margin-left: 75%;
+}
+.yt{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ff0000;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.yt:hover{
+    color: #ffffff;
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+}
+.itch{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.itch:hover{
+    color: #d36060;
+    background: #ffffff;
+    box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+}
+.discord{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #6c6ec7;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.discord:hover{
+    color: #ffffff;
+    background: #6c6ec7;
+    box-shadow: 0 0 10px #6c6ec7, 0 0 40px #6c6ec7, 0 0 80px #6c6ec7;
+}
+.scratch{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fcb51d;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.scratch:hover{
+    color: #ffffff;
+    background: #fcb51d;
+    box-shadow: 0 0 10px #fcb51d, 0 0 40px #fcb51d, 0 0 80px #fcb51d;
+}
+.github{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.github:hover{
+    color: #000000;
+    background: #ffffff;
+    box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+}
+.featured{
+    width: 50%;
+    height: 40%;
+    top: 55%;
+    left: 70px;
+    position: absolute;
+    color: #b9b9b9;
+    cursor: default;
+}
+.featured p{
+    width: 650px;
+    font-size: 15px;
+    margin: 0 0 30px 0;
+    line-height: 25px;
+    color: #b9b9b9;
+}
+.featured h3{
+    font-size: 21.5px;
+    width: 145px;
+    position: relative;
+    margin-left: 0;
+    background: linear-gradient(to right, #ff3e3e, #4099ff);
+    text-shadow: 0 0 20px #252525;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.featured h3:hover{
+    font-size: 21.5px;
+    width: 145px;
+    position: relative;
+    margin-left: 0;
+    background: linear-gradient(to right, #ff3e3e, #4099ff);
+    text-shadow: 0 0 20px #b9b9b9;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.featured b:hover{
+    font-size: 17.5px;
+    width: 145px;
+    position: relative;
+    margin-left: 0;
+    background: linear-gradient(to right, #6113c7, #22eebb);
+    text-shadow: 0 0 20px #b9b9b9;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.featured-buttons{
+    width: 50%;
+    height: 40%;
+    top: 70%;
+    left: 70px;
+    position: absolute;
+    color: #b9b9b9;
+    cursor: default;
+}
+.learn-more a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.learn-more a:hover{
+    color: #ff0000;
+    background: #ffffff;
+    box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+}
+        </style>
     </head>
     <body>
         <div class="container">
