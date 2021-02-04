@@ -158,6 +158,7 @@
     margin-left: 75%;
 }
 .right-panel img{
+    position: relative;
     left: 20%;
 }
 .yt{
