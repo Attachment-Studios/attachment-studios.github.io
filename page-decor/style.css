@@ -68,7 +68,7 @@
 }
 .intro-text h1{
     font-size: 43px;
-    width: 450px;
+    width: 550px;
     position: relative;
     margin-left: 0;
     background: linear-gradient(to right, #ff3e3e, #4099ff);
@@ -78,7 +78,7 @@
 }
 .intro-text h1:hover{
     font-size: 43px;
-    width: 450px;
+    width: 550px;
     position: relative;
     margin-left: 0;
     background: linear-gradient(to right, #ff3e3e, #4099ff);
