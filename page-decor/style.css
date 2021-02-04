@@ -157,6 +157,9 @@
 .right-panel{
     margin-left: 75%;
 }
+.right-panel img{
+    margin-left: 20px;
+}
 .yt{
     position: relative;
     display: inline-block;
