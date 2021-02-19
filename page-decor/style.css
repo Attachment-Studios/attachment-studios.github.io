@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Square.png?raw=true"), auto;
 }
 .container{
     width: 100%;
@@ -18,7 +19,7 @@
     margin: 0 20px;
     color: #b9b9b9;
     text-shadow: 0 0 20px #252525;
-    cursor: pointer;
+    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
 }
 .menu ul li a{
     text-decoration: none;
@@ -27,7 +28,7 @@
     margin: 0 20px;
     color: #b9b9b9;
     text-shadow: 0 0 20px #252525;
-    cursor: pointer;
+    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
 }
 .menu ul li a:hover{
     font-family: monospace;
@@ -35,7 +36,7 @@
     margin: 0 20px;
     color: #b9b9b9;
     text-shadow: 0 0 20px #b9b9b9;
-    cursor: pointer;
+    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
 }
 .opened{
     font-family: monospace;
@@ -43,7 +44,6 @@
     margin: 0 20px;
     color: #ff7f50;
     text-shadow: 0 0 20px #252525;
-    cursor: default;
 }
 .running:hover{
     font-family: monospace;
@@ -51,7 +51,6 @@
     margin: 0 20px;
     color: #ff7f50;
     text-shadow: 0 0 20px #b9b9b9;
-    cursor: default;
 }
 .banner{
     width: 80%;
@@ -60,7 +59,6 @@
     left: 70px;
     position: absolute;
     color: #b9b9b9;
-    cursor: default;
 }
 .intro-text{
     width: 60%;
@@ -100,7 +98,6 @@
     left: 70px;
     position: absolute;
     color: #b9b9b9;
-    cursor: default;
 }
 .about p{
     width: 650px;
@@ -142,7 +139,7 @@
 .about a{
     color: #b9b9b9;
     text-decoration: none;
-    cursor: pointer;
+    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
 }
 .intro-text b:hover{
     font-size: 17.5px;
@@ -172,7 +169,7 @@
     font-size: 15px;
     overflow: hidden;
     transition: 0.2s;
-    cursor: pointer;
+    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
 }
 .yt:hover{
     color: #ffffff;
@@ -190,7 +187,7 @@
     font-size: 15px;
     overflow: hidden;
     transition: 0.2s;
-    cursor: pointer;
+    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
 }
 .itch:hover{
     color: #d36060;
@@ -208,7 +205,7 @@
     font-size: 15px;
     overflow: hidden;
     transition: 0.2s;
-    cursor: pointer;
+    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
 }
 .discord:hover{
     color: #ffffff;
@@ -226,7 +223,7 @@
     font-size: 15px;
     overflow: hidden;
     transition: 0.2s;
-    cursor: pointer;
+    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
 }
 .scratch:hover{
     color: #ffffff;
@@ -244,7 +241,7 @@
     font-size: 15px;
     overflow: hidden;
     transition: 0.2s;
-    cursor: pointer;
+    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
 }
 .github:hover{
     color: #000000;
@@ -258,7 +255,6 @@
     left: 70px;
     position: absolute;
     color: #b9b9b9;
-    cursor: default;
 }
 .featured p{
     width: 650px;
@@ -304,7 +300,6 @@
     left: 70px;
     position: absolute;
     color: #b9b9b9;
-    cursor: default;
 }
 .learn-more a{
     position: relative;
@@ -317,7 +312,7 @@
     font-size: 15px;
     overflow: hidden;
     transition: 0.2s;
-    cursor: pointer;
+    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
 }
 .learn-more a:hover{
     color: #ff0000;
