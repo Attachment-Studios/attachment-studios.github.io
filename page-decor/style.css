@@ -1,321 +1,345 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Square.png?raw=true");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  cursor: url("cursor.png"), auto;
 }
-.container{
-    width: 100%;
-    height: 100%;
-    background: #252525;
+p {
+  user-select: none;
 }
-.menu ul{
-    display: inline-flex;
-    margin: 25px;
+h1 {
+  user-select: none;
 }
-.menu ul li{
-    font-family: monospace;
-    list-style: none;
-    margin: 0 20px;
-    color: #b9b9b9;
-    text-shadow: 0 0 20px #252525;
-    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
+h2 {
+  user-select: none;
 }
-.menu ul li a{
-    text-decoration: none;
-    font-family: monospace;
-    list-style: none;
-    margin: 0 20px;
-    color: #b9b9b9;
-    text-shadow: 0 0 20px #252525;
-    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
+h3 {
+  user-select: none;
 }
-.menu ul li a:hover{
-    font-family: monospace;
-    list-style: none;
-    margin: 0 20px;
-    color: #b9b9b9;
-    text-shadow: 0 0 20px #b9b9b9;
-    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
+h4 {
+  user-select: none;
 }
-.opened{
-    font-family: monospace;
-    list-style: none;
-    margin: 0 20px;
-    color: #ff7f50;
-    text-shadow: 0 0 20px #252525;
+h5 {
+  user-select: none;
 }
-.running:hover{
-    font-family: monospace;
-    list-style: none;
-    margin: 0 20px;
-    color: #ff7f50;
-    text-shadow: 0 0 20px #b9b9b9;
+h6 {
+  user-select: none;
 }
-.banner{
-    width: 80%;
-    height: 70%;
-    top: 15%;
-    left: 70px;
-    position: absolute;
-    color: #b9b9b9;
+button {
+  user-select: none;
 }
-.intro-text{
-    width: 60%;
-    float: left;
+.container {
+  width: 100%;
+  height: 100%;
+  background: #252525;
 }
-.intro-text h1{
-    font-size: 43px;
-    width: 550px;
-    position: relative;
-    margin-left: 0;
-    background: linear-gradient(to right, #ff3e3e, #4099ff);
-    text-shadow: 0 0 40px #252525;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.menu ul {
+  display: inline-flex;
+  margin: 25px;
 }
-.intro-text h1:hover{
-    font-size: 43px;
-    width: 550px;
-    position: relative;
-    margin-left: 0;
-    background: linear-gradient(to right, #ff3e3e, #4099ff);
-    text-shadow: 0 0 30px #b9b9b9;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.menu ul li {
+  font-family: monospace;
+  list-style: none;
+  margin: 0 20px;
+  color: #b9b9b9;
+  text-shadow: 0 0 20px #252525;
+  cursor: url("d-cursor.png"), auto;
 }
-.intro-text p{
-    width: 650px;
-    font-size: 15px;
-    margin: 0 0 30px 0;
-    line-height: 25px;
-    color: #b9b9b9;
+.menu ul li a {
+  text-decoration: none;
+  font-family: monospace;
+  list-style: none;
+  margin: 0 20px;
+  color: #b9b9b9;
+  text-shadow: 0 0 20px #252525;
+  cursor: url("d-cursor.png"), auto;
 }
-.about{
-    width: 50%;
-    height: 40%;
-    top: 30%;
-    left: 70px;
-    position: absolute;
-    color: #b9b9b9;
+.menu ul li a:hover {
+  font-family: monospace;
+  list-style: none;
+  margin: 0 20px;
+  color: #b9b9b9;
+  text-shadow: 0 0 20px #b9b9b9;
+  cursor: url("d-cursor.png"), auto;
 }
-.about p{
-    width: 650px;
-    font-size: 15px;
-    margin: 0 0 30px 0;
-    line-height: 25px;
-    color: #b9b9b9;
+.opened {
+  font-family: monospace;
+  list-style: none;
+  margin: 0 20px;
+  color: #ff7f50;
+  text-shadow: 0 0 20px #252525;
 }
-.about h3{
-    font-size: 21.5px;
-    width: 145px;
-    position: relative;
-    margin-left: 0;
-    background: linear-gradient(to right, #ff3e3e, #4099ff);
-    text-shadow: 0 0 20px #252525;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.running:hover {
+  font-family: monospace;
+  list-style: none;
+  margin: 0 20px;
+  color: #ff7f50;
+  text-shadow: 0 0 20px #b9b9b9;
 }
-.about h3:hover{
-    font-size: 21.5px;
-    width: 145px;
-    position: relative;
-    margin-left: 0;
-    background: linear-gradient(to right, #ff3e3e, #4099ff);
-    text-shadow: 0 0 20px #b9b9b9;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.banner {
+  width: 80%;
+  height: 70%;
+  top: 15%;
+  left: 70px;
+  position: absolute;
+  color: #b9b9b9;
 }
-.about b:hover{
-    font-size: 17.5px;
-    width: 145px;
-    position: relative;
-    margin-left: 0;
-    background: linear-gradient(to right, #6113c7, #22eebb);
-    text-shadow: 0 0 20px #b9b9b9;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.intro-text {
+  width: 60%;
+  float: left;
 }
-.about a{
-    color: #b9b9b9;
-    text-decoration: none;
-    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
+.intro-text h1 {
+  font-size: 43px;
+  width: 550px;
+  position: relative;
+  margin-left: 0;
+  background: linear-gradient(to right, #ff3e3e, #4099ff);
+  text-shadow: 0 0 40px #252525;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
-.intro-text b:hover{
-    font-size: 17.5px;
-    width: 145px;
-    position: relative;
-    margin-left: 0;
-    background: linear-gradient(to right, #6113c7, #22eebb);
-    text-shadow: 0 0 20px #b9b9b9;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.intro-text h1:hover {
+  font-size: 43px;
+  width: 550px;
+  position: relative;
+  margin-left: 0;
+  background: linear-gradient(to right, #ff3e3e, #4099ff);
+  text-shadow: 0 0 30px #b9b9b9;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
-.right-panel{
-    margin-left: 75%;
+.intro-text p {
+  width: 650px;
+  font-size: 15px;
+  margin: 0 0 30px 0;
+  line-height: 25px;
+  color: #b9b9b9;
 }
-.right-panel img{
-    position: relative;
-    left: 20%;
+.about {
+  width: 50%;
+  height: 40%;
+  top: 30%;
+  left: 70px;
+  position: absolute;
+  color: #b9b9b9;
 }
-.yt{
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: #ff0000;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    text-decoration: none;
-    font-size: 15px;
-    overflow: hidden;
-    transition: 0.2s;
-    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
+.about p {
+  width: 650px;
+  font-size: 15px;
+  margin: 0 0 30px 0;
+  line-height: 25px;
+  color: #b9b9b9;
 }
-.yt:hover{
-    color: #ffffff;
-    background: #ff0000;
-    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+.about h3 {
+  font-size: 21.5px;
+  width: 145px;
+  position: relative;
+  margin-left: 0;
+  background: linear-gradient(to right, #ff3e3e, #4099ff);
+  text-shadow: 0 0 20px #252525;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
-.itch{
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    text-decoration: none;
-    font-size: 15px;
-    overflow: hidden;
-    transition: 0.2s;
-    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
+.about h3:hover {
+  font-size: 21.5px;
+  width: 145px;
+  position: relative;
+  margin-left: 0;
+  background: linear-gradient(to right, #ff3e3e, #4099ff);
+  text-shadow: 0 0 20px #b9b9b9;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
-.itch:hover{
-    color: #d36060;
-    background: #ffffff;
-    box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+.about b:hover {
+  font-size: 17.5px;
+  width: 145px;
+  position: relative;
+  margin-left: 0;
+  background: linear-gradient(to right, #6113c7, #22eebb);
+  text-shadow: 0 0 20px #b9b9b9;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
-.discord{
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: #6c6ec7;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    text-decoration: none;
-    font-size: 15px;
-    overflow: hidden;
-    transition: 0.2s;
-    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
+.about a {
+  color: #b9b9b9;
+  text-decoration: none;
+  cursor: url("d-cursor.png"), auto;
 }
-.discord:hover{
-    color: #ffffff;
-    background: #6c6ec7;
-    box-shadow: 0 0 10px #6c6ec7, 0 0 40px #6c6ec7, 0 0 80px #6c6ec7;
+.intro-text b:hover {
+  font-size: 17.5px;
+  width: 145px;
+  position: relative;
+  margin-left: 0;
+  background: linear-gradient(to right, #6113c7, #22eebb);
+  text-shadow: 0 0 20px #b9b9b9;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
-.scratch{
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: #fcb51d;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    text-decoration: none;
-    font-size: 15px;
-    overflow: hidden;
-    transition: 0.2s;
-    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
+.right-panel {
+  margin-left: 75%;
 }
-.scratch:hover{
-    color: #ffffff;
-    background: #fcb51d;
-    box-shadow: 0 0 10px #fcb51d, 0 0 40px #fcb51d, 0 0 80px #fcb51d;
+.right-panel img {
+  position: relative;
+  left: 20%;
 }
-.github{
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    text-decoration: none;
-    font-size: 15px;
-    overflow: hidden;
-    transition: 0.2s;
-    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
+.yt {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #ff0000;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-decoration: none;
+  font-size: 15px;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: url("d-cursor.png"), auto;
 }
-.github:hover{
-    color: #000000;
-    background: #ffffff;
-    box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+.yt:hover {
+  color: #ffffff;
+  background: #ff0000;
+  box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
 }
-.featured{
-    width: 50%;
-    height: 40%;
-    top: 55%;
-    left: 70px;
-    position: absolute;
-    color: #b9b9b9;
+.itch {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-decoration: none;
+  font-size: 15px;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: url("d-cursor.png"), auto;
 }
-.featured p{
-    width: 650px;
-    font-size: 15px;
-    margin: 0 0 30px 0;
-    line-height: 25px;
-    color: #b9b9b9;
+.itch:hover {
+  color: #d36060;
+  background: #ffffff;
+  box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
 }
-.featured h3{
-    font-size: 21.5px;
-    width: 145px;
-    position: relative;
-    margin-left: 0;
-    background: linear-gradient(to right, #ff3e3e, #4099ff);
-    text-shadow: 0 0 20px #252525;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.discord {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #6c6ec7;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-decoration: none;
+  font-size: 15px;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: url("d-cursor.png"), auto;
 }
-.featured h3:hover{
-    font-size: 21.5px;
-    width: 145px;
-    position: relative;
-    margin-left: 0;
-    background: linear-gradient(to right, #ff3e3e, #4099ff);
-    text-shadow: 0 0 20px #b9b9b9;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.discord:hover {
+  color: #ffffff;
+  background: #6c6ec7;
+  box-shadow: 0 0 10px #6c6ec7, 0 0 40px #6c6ec7, 0 0 80px #6c6ec7;
 }
-.featured b:hover{
-    font-size: 17.5px;
-    width: 145px;
-    position: relative;
-    margin-left: 0;
-    background: linear-gradient(to right, #6113c7, #22eebb);
-    text-shadow: 0 0 20px #b9b9b9;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.scratch {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fcb51d;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-decoration: none;
+  font-size: 15px;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: url("d-cursor.png"), auto;
 }
-.featured-buttons{
-    width: 50%;
-    height: 40%;
-    top: 70%;
-    left: 70px;
-    position: absolute;
-    color: #b9b9b9;
+.scratch:hover {
+  color: #ffffff;
+  background: #fcb51d;
+  box-shadow: 0 0 10px #fcb51d, 0 0 40px #fcb51d, 0 0 80px #fcb51d;
 }
-.learn-more a{
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    text-decoration: none;
-    font-size: 15px;
-    overflow: hidden;
-    transition: 0.2s;
-    cursor: url("https://github.com/Attachment-Studios/attachment-studios.github.io/blob/master/page-decor/Glow%20Pointer.png?raw=true"), auto;
+.github {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-decoration: none;
+  font-size: 15px;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: url("d-cursor.png"), auto;
 }
-.learn-more a:hover{
-    color: #ff0000;
-    background: #ffffff;
-    box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+.github:hover {
+  color: #000000;
+  background: #ffffff;
+  box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+}
+.featured {
+  width: 50%;
+  height: 40%;
+  top: 55%;
+  left: 70px;
+  position: absolute;
+  color: #b9b9b9;
+}
+.featured p {
+  width: 650px;
+  font-size: 15px;
+  margin: 0 0 30px 0;
+  line-height: 25px;
+  color: #b9b9b9;
+}
+.featured h3 {
+  font-size: 21.5px;
+  width: 145px;
+  position: relative;
+  margin-left: 0;
+  background: linear-gradient(to right, #ff3e3e, #4099ff);
+  text-shadow: 0 0 20px #252525;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.featured h3:hover {
+  font-size: 21.5px;
+  width: 145px;
+  position: relative;
+  margin-left: 0;
+  background: linear-gradient(to right, #ff3e3e, #4099ff);
+  text-shadow: 0 0 20px #b9b9b9;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.featured b:hover {
+  font-size: 17.5px;
+  width: 145px;
+  position: relative;
+  margin-left: 0;
+  background: linear-gradient(to right, #6113c7, #22eebb);
+  text-shadow: 0 0 20px #b9b9b9;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.featured-buttons {
+  width: 50%;
+  height: 40%;
+  top: 70%;
+  left: 70px;
+  position: absolute;
+  color: #b9b9b9;
+}
+.learn-more a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-decoration: none;
+  font-size: 15px;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: url("d-cursor.png"), auto;
+}
+.learn-more a:hover {
+  color: #ff0000;
+  background: #ffffff;
+  box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
 }
