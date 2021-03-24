@@ -59,28 +59,3 @@
   color: rgb(255, 144, 4);
   font-family: "quicksand", sans-serif;
 }
-.prlnrn {
-  border: 2px solid magenta;
-  background: magenta;
-  animation-name: unglow;
-  animation-duration: 1s;
-  padding: 10px;
-  margin: 15px;
-  cursor: url("../page-decor/cursor.png"), auto;
-  color: #252525;
-  font-family: "quicksand", sans-serif;
-  outline: none;
-}
-.prlnrn:hover {
-  border: 2px solid magenta;
-  background: #252525;
-  padding: 10px;
-  margin: 15px;
-  cursor: url("../page-decor/cursor.png"), auto;
-  animation-name: glow;
-  animation-duration: 1s;
-  box-shadow: 0 0 10px 10px;
-  box-shadow: rgb(255, 144, 4);
-  color: rgb(255, 144, 4);
-  font-family: "quicksand", sans-serif;
-}
