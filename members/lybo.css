@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    background: #00ffc3;
+    color: #fc4903;
+    font-family: "Caveat", handwriting;
+    padding: 0;
+    user-select: none;
+    font-size: 24px;
+    cursor: url("../page-decor/d-cursor.png"), auto;
+}
+li {
+    margin: 24px;
+}
+body {
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+h1 {
+    font-size: 64px;
+    margin: 0;
+}
+h3 {
+    font-size: 50px;
+    margin: 0;
+}
+.menu {
+    margin: 0px;
+    background: #fc4903;
+}
+.menu ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    background: #fc4903;
+}
+.menu ul li {
+    margin: 10px;
+    background: #fc4903;
+    color: #00ffc3;
+}
+.menu ul li a {
+    background: #fc4903;
+    color: #00ffc3;
+}
+a {
+    text-decoration: none;
+    font-family: monospace;
+}
+.container {
+    margin-left: 10px;
+    width: 50%;
+    padding: 10px;
+}
+button {
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid #fc4903;
+    border-radius: 10px;
+    outline: none;
+}
+button:hover {
+    background: #fc4903;
+    color: #00ffc3;
+    cursor: url("../page-decor/d-cursor.png"), auto;
+}
+b {
+    font-weight: regular;
+}
+b:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #fc4903;
+}
