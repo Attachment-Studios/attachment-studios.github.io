@@ -343,3 +343,22 @@ button {
   background: #ffffff;
   box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
 }
+.patreon a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #042B48;
+  background: #F56854;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-decoration: none;
+  font-size: 15px;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: url("d-cursor.png"), auto;
+}
+.patreon a:hover {
+  color: #F56854;
+  background: #042B48;
+  box-shadow: 0 0 10px #F56854, 0 0 40px #F56854, 0 0 80px #F56854;
+}
