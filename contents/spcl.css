@@ -9,6 +9,31 @@
   }
 }
 
+.prbtn {
+  outline: none;
+  border: 2px solid #ffffff;
+  background: #ffffff;
+  animation-name: unglow;
+  animation-duration: 1s;
+  padding: 10px;
+  margin: 15px;
+  cursor: url("../page-decor/cursor.png"), auto;
+  color: #000000;
+  font-family: "quicksand", sans-serif;
+}
+.prbtn:hover {
+  border: 2px solid #ffffff;
+  background: #000000;
+  padding: 10px;
+  margin: 15px;
+  cursor: url("../page-decor/cursor.png"), auto;
+  animation-name: glow;
+  animation-duration: 1s;
+  box-shadow: 0 0 10px 10px;
+  box-shadow: #ffffff;
+  color: #ffffff;
+  font-family: "quicksand", sans-serif;
+}
 .prmyth {
   outline: none;
   border: 2px solid #0cceb2;
