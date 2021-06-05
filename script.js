@@ -10,9 +10,9 @@ function myFunction() {
 
 function redirect(project) {
 	var token = "/";
-	window.open("https://attachment-studios.github.io" + token + project);
+	window.location.href = "https://attachment-studios.github.io" + token + project;
 }
 
 function goto(link) {
-	window.open(link);
+	window.location.href = link;
 }
