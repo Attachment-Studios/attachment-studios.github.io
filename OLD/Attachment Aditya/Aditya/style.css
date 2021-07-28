@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+:root {
+    --c1: #00ff99;
+    --c2: #00bbff;
+}
+
+* {
+    font-family: 'JetBrains Mono';
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    user-select: none;
+}
+
+center {
+    height: 100%;
+    vertical-align: middle;
+}
+
+h1#count {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+
+h1#name {
+    position: fixed;
+    font-size: 750%;
+    letter-spacing: 75px;
+    top: 35%;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    background-image: linear-gradient(to bottom right, var(--c1), var(--c2));
+    z-index: -1;
+}
+

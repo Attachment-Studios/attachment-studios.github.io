@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+:root {
+	--c1: #151515;
+	--c2: #eeeeee;
+	/*
+	--c1: #ADEFD1;
+	--c2: #00203F;
+	*/
+}
+
+@keyframes glow {
+	from {
+		text-shadow: 0 0 10px var(--c2);
+	}
+	to {
+		text-shadow: 0 0 20px var(--c2);
+	}
+}
+
+@keyframes boxglow {
+	from {
+		box-shadow: 0 0 0px var(--c2);
+	}
+	to {
+		box-shadow: 0 0 20px var(--c2);
+	}
+}
+
+@keyframes boxunglow {
+	from {
+		box-shadow: 0 0 20px var(--c2);
+	}
+	to {
+		box-shadow: 0 0 0px var(--c2);
+	}
+}
+
+* {
+	font-family: 'JetBrains Mono';
+	margin: 0;
+	padding: 0;
+	background: var(--c1);
+	color: var(--c2);
+	user-select: none;
+	text-shadow: 0 0 20px var(--c2);
+	animation-name: glow;
+	animation-duration: 0.5s;
+}
+
+h1 {
+	font-size: 128px;
+}
+
+h2 {
+	font-size: 96px;
+}
+
+h3 {
+	font-size: 64px;
+}
+
+h4 {
+	font-size: 48px;
+}
+
+h5 {
+	font-size: 32px;
+}
+
+h6 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 24px;
+}
+
+.resume {
+	padding: 20px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+button {
+	padding: 10px;
+	outline: none;
+	border: 5px solid var(--c2);
+	border-radius: 10px;
+	font-size: 24px;
+	background: var(--c1);
+	color: var(--c2);
+	cursor: pointer;
+	margin: 10px;
+	margin-left: 0;
+	box-shadow: 0 0 0px var(--c2);
+	animation-name: boxunglow;
+	animation-duration: 0.5s;
+}
+
+button:hover {
+	color: var(--c1);
+	background: var(--c2);
+	box-shadow: 0 0 20px var(--c2);
+	animation-name: boxglow;
+	animation-duration: 0.5s;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--c2);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background: var(--c2);
+}
+
+::-webkit-scrollbar-track{
+	background: #151515;
+	border-radius: 10px;
+}

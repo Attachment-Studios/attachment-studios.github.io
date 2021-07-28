@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+
+:root {
+	--bckgrnd-color: #333333;
+	--heading-color: #6ad1e6;
+	--general-color: #ffffff;
+	--font-family: 'DM Mono';
+	--font-sz-g: 24px;
+	--font-sz-1: 96px;
+	--font-sz-0: 192px;
+	--font-sz-2: 72px;
+	--font-sz-3: 64px;
+	--font-sz-4: 48px;
+	--font-sz-5: 32px;
+	--font-sz-6: 28px;
+	--font-sz-c: 18px;
+	--sel-tx-col: #ffffff;
+	--sel-bg-col: transparent;
+	--sel-shadow: none;
+	--cm-bc: #00000033;
+	--cm-nc: #ffffff00;
+	--cm-hc: #ffffff33;
+	--cm-tc: #6ad1e6ff;
+	--cm-bs: 2px;
+	--cm-mp: 3px;
+	--cm-bp: 8px;
+	--brdr-rd: 10px;
+	--brdr-tk: 2px;
+	--brdr-pd: 10px;
+	--ic-hc: #00000033;
+}
+
+* {
+	background: var(--bckgrnd-color);
+	color: var(--general-color);
+	font-family: var(--font-family);
+	font-size: var(--font-sz-g);
+	transition: 0.15s;
+}
+
+::selection {
+	background: var(--sel-bg-col);
+	color: var(--sel-tx-col);
+	text-shadow: var(--sel-shadow);
+}
+
+.contextmenu {
+	user-select: none;
+	cursor: default;
+	background: var(--cm-bc);
+	position: fixed;
+	padding: var(--cm-mp);
+	border-radius: 10px;
+	opacity: 0%;
+}
+
+.contextmenu i {
+	padding: var(--cm-bp);
+	cursor: pointer;
+	color: var(--cm-tc);
+	background: var(--cm-nc);
+	margin: var(--cm-bs);
+	font-size: var(--font-sz-c);
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+.contextmenu i:hover {
+	background: var(--cm-hc);
+	transition: 0.3s;
+}
+
+.contextmenu::selection {
+	background: transparent;
+	color: var(--general-color);
+}
+
+.background {
+	position: fixed;
+	top: -0.2%;
+	left: -1.3%;
+	overflow: hidden;
+}
+
+h0, h1, h2, h3, h4, h5, h6, p, b, em, strong, center, div, button {
+	background: transparent;
+	position: relative;
+	cursor: default;
+}
+
+h0 {
+	font-size: var(--font-sz-0);
+	color: var(--heading-color);
+}
+
+h1 {
+	font-size: var(--font-sz-1);
+}
+
+h2 {
+	font-size: var(--font-sz-2);
+}
+
+h3 {
+	font-size: var(--font-sz-3);
+}
+
+h4 {
+	font-size: var(--font-sz-4);
+}
+
+h5 {
+	font-size: var(--font-sz-5);
+}
+
+h6 {
+	font-size: var(--font-sz-6);
+}
+
+h0, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	color: var(--heading-color);
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	background: transparent;
+	color: var(--general-color);
+	border: var(--brdr-tk) solid var(--general-color);
+	border-radius: var(--brdr-rd);
+	padding: var(--brdr-pd);
+	cursor: pointer;
+	margin: var(--brdr-pd);
+	transition: 0.15s;
+	font-weight: bold;
+}
+
+button:hover {
+	background: var(--general-color);
+	color: var(--heading-color);
+}
+
+::-webkit-scrollbar{
+	width: 5px;
+	height: 5px;
+	background: var(--bckgrn-color);
+}
+
+::-webkit-scrollbar-thumb{
+	background: var(--heading-color);
+	border-radius: 0px;
+}
+
+::-webkit-scrollbar-track{
+	background: var(--general-color);
+}
+
+.contents {
+	top: 20%;
+}
+
+.contents div {
+	margin-bottom: 20px;
+}
+
+i {
+	font-size: 50px;
+	background: transparent;
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+i:hover {
+	background: var(--ic-hc);
+}
+

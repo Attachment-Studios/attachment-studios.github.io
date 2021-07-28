@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+:root {
+    --c1: #00ff99;
+    --c2: #00bbff;
+}
+
+* {
+    font-family: 'JetBrains Mono';
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+h3 {
+    font-size: 64px;
+}
+
+.title h1 {
+    position: relative;
+    font-size: 750%;
+    letter-spacing: 75px;
+    top: 35%;
+}
+
+.title {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.talk {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    background-image: linear-gradient(to bottom right, var(--c1), var(--c2));
+    z-index: -1;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    background: linear-gradient(to bottom, var(--c1), var(--c2));
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, var(--c1), var(--c2));
+    background: #000000;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(to bottom, var(--c1), var(--c2));
+    background: #000000;
+}
+
+::-webkit-scrollbar-track{
+    background: linear-gradient(to bottom, var(--c1), var(--c2));
+    border-radius: 15px;
+}
+
+button {
+    background: transparent;
+    outline: none;
+    color: black;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .15s;
+    margin-top: 5px;
+}
+
+button:hover {
+    background: black;
+    color: var(--c1);
+    transition: .15s;
+}
+
+hr {
+    border: 8px solid black;
+    border-radius: 10px;
+    width: 90%;
+}

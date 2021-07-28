@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Aditya</title>
+    <link rel="fav icon" href="Attachment Aditya.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="description"
+        content="Attachment Aditya is the creator of Attachment Studios and is a great Game Developer and coder.">
+    <meta property="og:url" content="https://attachment-studios.github.io/Attachment-Aditya">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="
+					Attachment Aditya
+				">
+    <meta property="og:description"
+        content="Attachment Aditya is the creator of Attachment Studios and is a great Game Developer and coder.">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/Attachment-Studios/Attachment-Aditya/main/Social Preview.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="attachment-studios.github.io">
+    <meta property="twitter:url" content="https://attachment-studios.github.io/Attachment-Aditya">
+    <meta name="twitter:title" content="
+					Attachment Aditya
+				">
+    <meta name="twitter:description"
+        content="Attachment Aditya is the creator of Attachment Studios and is a great Game Developer and coder.">
+    <meta name="twitter:image"
+        content="https://raw.githubusercontent.com/Attachment-Studios/Attachment-Aditya/main/Social Preview.png">
+</head>
+
+<body>
+    <h1 id="count">1</h1>
+    <div>
+        <h1 id="name">ADITYA</h1>
+    </div>
+    <div class="bg"></div>
+</body>
+
+<script>
+    function getCookieValue(name) {
+        let result = document.cookie.match("(^|[^;]+)\\s*" + name + "\\s*=\\s*([^;]+)")
+        return result ? result.pop() : ""
+    }
+
+    function view_count() {
+        if (getCookieValue("COUNT") == "") {
+            document.cookie = "COUNT=0;";
+        }
+        document.cookie = "COUNT=" + (Number(getCookieValue("COUNT")) + 1) + ";";
+        document.getElementById('count').innerHTML = getCookieValue("COUNT");
+    }
+
+    view_count();
+
+    let count = 0;
+    let nameInterval = window.setInterval(() => {
+        generateName();
+        if (count > 6) {
+            window.clearInterval(nameInterval);
+            document.getElementById('name').parentNode.innerHTML = `<sm style="letter-spacing: 10px; position: relative; top: 30%; font-size: 150%;">Attachment</sm><br><h1 style='cursor: pointer;' onclick="action();" id="name">ADITYA</h1>`;
+        } else {
+            count = count + 1;
+        }
+    }, 750);
+</script>
+
+</html>
