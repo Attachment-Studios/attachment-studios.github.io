@@ -1,4 +1,11 @@
 
+// orientation settings
+if ( window.innerWidth < window.innerHeight ) {
+	background_image = document.getElementById('background');
+	background_image.style.height = "100%";
+	background_image.style.width = "auto";
+}
+
 // themes
 theme = 'dark';
 binary = false;
