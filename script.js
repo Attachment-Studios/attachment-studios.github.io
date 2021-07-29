@@ -169,7 +169,7 @@ function sm(l) {
 
 if ( ((location.href).split('#')).length > 1 ) {
 	let redirect = (((location.href).split('#')[1]).toLowerCase());
-	if ( redirect == 'youtube' ) {
+	if ( redirect == 'youtube' || redirect == 'yt' ) {
 		location.replace('https://youtube.com/channel/UCYogrplaFuI-iZSmSnQpgsQ');
 	} else if ( redirect == 'twitch' ) {
 		location.replace('https://twitch.tv/AttachmentStudios');
@@ -177,10 +177,12 @@ if ( ((location.href).split('#')).length > 1 ) {
 		location.replace('https://discord.gg/tZJUVgNpn2');
 	} else if ( redirect == 'patreon' ) {
 		location.replace('https://patreon.com/AttachmentStudios');
-	} else if ( redirect == 'github' ) {
+	} else if ( redirect == 'github' || redirect == 'gh' ) {
 		location.replace('https://github.com/Attachment-Studios');
-	} else if ( redirect == 'itch' ) {
+	} else if ( redirect == 'itch' || redirect == 'itch.io' || redirect == 'itchio' || redirect == 'itch-io' || redirect == 'i-io' || redirect == 'iio' || redirect == 'i.io' ) {
 		location.replace('https://attachment-studios.itch.io/');
+	} else if ( redirect == 'intro' ) {
+		location.replace('https://youtu.be/e0wRzVwTkC4');
 	} else {
 		location.replace('https://attachment-studios.github.io/');
 	}
