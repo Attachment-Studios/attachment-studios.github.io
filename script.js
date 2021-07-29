@@ -181,10 +181,10 @@ if ( ((location.href).split('#')).length > 1 ) {
 		location.replace('https://github.com/Attachment-Studios');
 	} else if ( redirect == 'itch' || redirect == 'itch.io' || redirect == 'itchio' || redirect == 'itch-io' || redirect == 'i-io' || redirect == 'iio' || redirect == 'i.io' ) {
 		location.replace('https://attachment-studios.itch.io/');
-	} else if ( redirect == 'intro' ) {
+	} else if ( redirect == 'intro' || redirect == 'trailer' ) {
 		location.replace('https://youtu.be/e0wRzVwTkC4');
 	} else {
-		location.replace('https://attachment-studios.github.io/');
+		location.replace('https://attachment-studios.github.io');
 	}
 }
 
