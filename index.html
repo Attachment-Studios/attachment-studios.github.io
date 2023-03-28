@@ -1,58 +1,236 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<!-- title -->
 		<title>Attachment Studios</title>
-		
-		<!-- meta -->
-		<meta name="description" content="Attachment Studios is a studio for all categories and stuff. Game Dev and coding are main topics though.">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="description" content="Attachment Studios - More than just dev">
 		<meta property="og:url" content="https://attachment-studios.github.io/">
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="Attachment Studios">
-		<meta property="og:description" content="Attachment Studios is a studio for all categories and stuff. Game Dev and coding are main topics though.">
-		<meta property="og:image" content="https://raw.githubusercontent.com/Attachment-Studios/attachment-studios.github.io/master/Social Preview.png">
+		<meta property="og:description" content="Attachment Studios - More than just dev">
+		<meta property="og:image" content="./resources/Banner.png">
 		<meta name="twitter:card" content="summary_large_image">
 		<meta property="twitter:domain" content="attachment-studios.github.io">
 		<meta property="twitter:url" content="https://attachment-studios.github.io/">
 		<meta name="twitter:title" content="Attachment Studios">
-		<meta name="twitter:description" content="Attachment Studios is a studio for all categories and stuff. Game Dev and coding are main topics though.">
-		<meta name="twitter:image" content="https://raw.githubusercontent.com/Attachment-Studios/attachment-studios.github.io/master/Social Preview.png">
+		<meta name="twitter:description" content="Attachment Studios - More than just dev">
+		<meta name="twitter:image" content="./resources/Banner.png">
 		
-		<!-- links -->
-		<link rel="stylesheet" href="style.css">
-		<link rel="icon" href="Icon.png">
-		
-		<!-- scripts -->
-		<script src="script.js" defer></script>
+		<link rel="icon" href="/resources/Logo.png">
+		<link rel="stylesheet" href="/resources/main.css">
+
+		<script src="/resources/main.js"></script>
 		<script src="https://kit.fontawesome.com/a63f2fde7e.js" crossorigin="anonymous"></script>
 	</head>
-	<body>
-		<!-- background -->
-		<img class="background" id="background" src="Background.png" width="102%" />
-		
-		<!-- title -->
-		<div class="heading main">
-			<center>
-				<h0>&lt;/&gt;</h0>
-				<br>
-				<h4 style="color: var(--general-color)">Attachment<br>Studios</h4>
-			</center>
+	<body class="has-background-black">
+		<nav class="navbar is-white p-2" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="/">
+					<figure class="image">
+						<img src="/resources/Logo.png">
+					</figure>
+					<span class="ml-2 is-uppercase has-text-weight-bold">
+						Attachment Studios
+					</span>
+				</a>
+			</div>
+
+			<div class="navbar-end is-hidden-mobile is-hidden-tablet-only">
+				<a href="/#projects" class="navbar-item">
+					<button class="button is-black">
+						<i class="has-text-white fa-solid fa-shapes"></i>
+						<span class="ml-2 has-text-weight-medium has-text-white">
+							Projects
+						</span>
+					</button>
+				</a>
+				<a href="/#team" class="navbar-item">
+					<button class="button is-black">
+						<i class="has-text-white fa-solid fa-champagne-glasses"></i>
+						<span class="ml-2 has-text-weight-medium has-text-white">
+							Team
+						</span>
+					</button>
+				</a>
+				<a href="/#contact" class="navbar-item">
+					<button class="button is-black">
+						<i class="has-text-white fa-solid fa-mobile"></i>
+						<span class="ml-2 has-text-weight-medium has-text-white">
+							Contact
+						</span>
+					</button>
+				</a>
+			</div>
+		</nav>
+
+		<div class="container">
+			<section class="section is-medium mt-4 pt-6">
+				<h1 class="is-size-max title columns p-4 m-4 is-multiline">
+					<span class="column has-text-centered has-text-white has-text-glow has-text-weight-bold is-full mb-6 pb-6">
+						<i class="fa-2xl fa-solid fa-rocket is-shakey"></i>
+					</span>
+					<span class="column has-text-centered has-text-white has-text-glow has-text-weight-bold is-4">CREATE</span>
+					<span class="column has-text-centered has-text-white has-text-glow has-text-weight-bold is-4">THE</span>
+					<span class="column has-text-centered has-text-white has-text-glow has-text-weight-bold is-4">FUTURE</span>
+				</h1>
+				<p class="subtitle has-text-centered has-text-weight-medium column is-8 is-offset-2">
+					<span class="column is-full m-0 p-0">
+						Here, at Attachment Studios, we are building the future.
+					</span>
+					<span class="column is-full m-0 p-0">
+						A non existent bright future for now,
+						which will become an existent present, one day.
+					</span>
+				</p>
+			</section>
+
+			<section class="section is-medium has-background-black-bis" id="contact">
+				<h1 class="title">
+					Connect with Us
+				</h1>
+				<div class="columns pt-2 mt-2 is-mobile">
+					<a class="column is-2 has-text-centered" href="https://youtube.com/@AttachmentStudios"><i class="is-size-1 fa-2xl has-text-white fa-brands fa-youtube"></i></a>
+					<a class="column is-2 has-text-centered" href="https://discord.gg/s7EWZgfQpk"><i class="is-size-1 fa-2xl has-text-white fa-brands fa-discord"></i></a>
+					<a class="column is-2 has-text-centered" href="https://github.com/Attachment-Studios"><i class="is-size-1 fa-2xl has-text-white fa-brands fa-github"></i></a>
+					<a class="column is-2 has-text-centered" href="https://patreon.com/AttachmentStudios"><i class="is-size-1 fa-2xl has-text-white fa-brands fa-patreon"></i></a>
+					<a class="column is-2 has-text-centered" href="https://twitch.tv/AttachmentStudios"><i class="is-size-1 fa-2xl has-text-white fa-brands fa-twitch"></i></a>
+					<a class="column is-2 has-text-centered" href="https://attachment-studios.itch.io"><i class="is-size-1 fa-2xl has-text-white fa-brands fa-itch-io"></i></a>
+				</div>
+			</section>
+
+			<section class="section is-medium" id="projects">
+				<h1 class="title">
+					Our Showcase
+				</h1>
+				<div class="columns is-multiline is-4">
+					<a href="https://prep4exam.eu.org/" class="card has-background-black-bis column is-half has-text-white">
+						<div class="card-image">
+							<figure class="image is-2by1">
+								<img src="https://prep4exam.eu.org/res/icons/P4E.png" style="object-fit: cover;">
+							</figure>
+						</div>
+						<div class="p-2 mt-2 has-background-transparent">
+							<div class="has-text-white title is-size-3">
+								Prep4Exam
+							</div>
+							<div class="subtitle is-size-5">
+								Prepare for your competitive and entrance exams(for free)!
+								An app to prepare in an exam-like environment.
+							</div>
+						</div>
+					</a>
+					<a href="https://synt.ml/" class="card has-background-black-bis column is-half has-text-white">
+						<div class="card-image">
+							<figure class="image is-2by1">
+								<img src="https://synt.ml/Banner.png">
+							</figure>
+						</div>
+						<div class="p-2 mt-2 has-background-transparent">
+							<div class="has-text-white title is-size-3">
+								Synt
+							</div>
+							<div class="subtitle is-size-5">
+								A programming language - Made for beginners and experts!
+							</div>
+						</div>
+					</a>
+					<a href="https://hdbvm.attachment-studios.tk/" class="card has-background-black-bis column is-half has-text-white">
+						<div class="card-image">
+							<figure class="image is-2by1">
+								<img src="https://hdbvm.attachment-studios.tk/icon">
+							</figure>
+						</div>
+						<div class="p-2 mt-2 has-background-transparent">
+							<div class="has-text-white title is-size-3">
+								HDBVM
+							</div>
+							<div class="subtitle is-size-5">
+								Human Distinction By Visual Method - CAPTCHA API
+							</div>
+						</div>
+					</a>
+					<a href="https://attachment-studios.tk/Cells" class="card has-background-black-bis column is-half has-text-white">
+						<div class="card-image">
+							<figure class="image is-2by1">
+								<img src="https://attachment-studios.tk/Cells/Social%20Preview.png">
+							</figure>
+						</div>
+						<div class="p-2 mt-2 has-background-transparent">
+							<div class="has-text-white title is-size-3">
+								Cells
+							</div>
+							<div class="subtitle is-size-5">
+								Cells is a slightly complicated yet an interesting esoteric programming language.
+							</div>
+						</div>
+					</a>
+					<a href="https://attachment-studios.tk/Fading-Lights" class="card has-background-black-bis column is-half has-text-white">
+						<div class="card-image">
+							<figure class="image is-2by1">
+								<img src="https://attachment-studios.tk/Fading-Lights/icon.png" style="object-fit: cover;">
+							</figure>
+						</div>
+						<div class="p-2 mt-2 has-background-transparent">
+							<div class="has-text-white title is-size-3">
+								Fading Lights
+							</div>
+							<div class="subtitle is-size-5">
+								Fading Lights is a simple and casual fun-to-play game for Mobiles and PC.
+							</div>
+						</div>
+					</a>
+					<a href="https://attachment-studios.tk/blind-night-zombie-saga" class="card has-background-black-bis column is-half has-text-white">
+						<div class="card-image">
+							<figure class="image is-2by1">
+								<img src="https://attachment-studios.tk/blind-night-zombie-saga/ICON.png" style="object-fit: contain; filter: invert(1);">
+							</figure>
+						</div>
+						<div class="p-2 mt-2 has-background-transparent">
+							<div class="has-text-white title is-size-3">
+								Blind Night Zombie Saga
+							</div>
+							<div class="subtitle is-size-5">
+								BNZS is a shooting game designed for visually impaired people.
+							</div>
+						</div>
+					</a>
+				</div>
+				<a href="https://github.com/Attachment-Studios">
+					<span class="columns is-mobile column is-full">
+						<button class="button has-background-black-ter has-text-white column is-half is-offset-one-quarter is-large" style="border: none;">
+							See more
+							<i class="ml-2 fa-solid fa-arrow-right"></i>
+						</button>
+					</span>
+				</a>
+			</section>
+
+			<section class="section is-medium has-background-black-bis" id="team">
+				<h1 class="title">
+					Our Epic Team
+				</h1>
+				<div class="columns is-multiline">
+					<a href="https://attaditya.is-a.dev/" class="column card is-3 has-background-black-ter">
+						<div class="card-image">
+							<figure class="image is-3by4">
+								<img src="/resources/members/AttAditya.jpg" style="object-fit: cover;">
+							</figure>
+						</div>
+						<div class="mt-2 title has-text-white">
+							Aditya
+						</div>
+						<div class="subtitle has-text-grey-dark">
+							Founder, CEO, Programmer, Designer
+						</div>
+					</a>
+				</div>
+			</section>
 		</div>
-		<br>
-		
-		<!-- actions -->
-		<div class="actions" id="actions">
-			<center>
-				<i onclick="sm('youtube')" class="fab fa-youtube" style="color: #ff0000;"></i>
-				<i onclick="sm('twitch')" class="fab fa-twitch" style="color: #6441a5;"></i>
-				<i onclick="sm('discord')" class="fab fa-discord" style="color: #7289da;"></i>
-				<i onclick="sm('patreon')" class="fab fa-patreon" style="color: #f96854;"></i>
-				<i onclick="sm('github')" class="fab fa-github" style="color: #4078c0;"></i>
-				<i onclick="sm('itch')" class="fab fa-itch-io" style="color: #fa5c5c;"></i>
-			</center>
-		</div>
-		<br>
-		
-		<!-- context menu -->
-		<div class="contextmenu" id="contextmenu"></div>
+
+		<footer class="p-2 mt-6 has-background-black-ter">
+			(c) Attachment Studios - Since 2018, <a href="/resources/LICENSE.txt">This page licensed - 2023</a>
+		</footer>
 	</body>
 </html>

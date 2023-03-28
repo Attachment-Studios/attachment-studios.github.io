@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
+
+* {
+	font-family: 'Rubik', sans-serif;
+	transition: 0.2s;
+}
+
+html, body {
+	overflow-y: auto;
+}
+
+.is-size-max {
+	font-size: 4.5rem;
+	line-height: 4.5rem;
+}
+
+@keyframes glowing {
+	0% {
+		text-shadow: 0 0 0.75rem #FFFFFF;
+	}
+	50% {
+		text-shadow: 0 0 2.5rem #FFFFFF;
+	}
+	100% {
+		text-shadow: 0 0 0.75rem #FFFFFF;
+	}
+}
+
+.has-text-glow {
+	text-shadow: 0 0 1rem #FFFFFF;
+	user-select: none;
+	animation: glowing 3.5s linear infinite;
+}
+
+@keyframes shakey-shakey {
+	0% {
+		transform: rotateZ(0deg) scale(1.2);
+		text-shadow: 0 0 2rem #F24C26;
+	}
+	50% {
+		transform: rotateZ(5deg) scale(1.2);
+		text-shadow: 0 0 2rem #F24C26;
+	}
+	100% {
+		transform: rotateZ(0deg) scale(1.2);
+		text-shadow: 0 0 2rem #F24C26;
+	}
+}
+
+.is-shakey:hover {
+	animation: shakey-shakey .1s linear infinite;
+	text-shadow: 0 0 2rem #F24C26;
+}
+
+.button:hover {
+	transform: scale(1.1);
+}
+
+a.column:not(.card):hover {
+	transform: scale(1.4);
+}
+
+a.column.card {
+	transform: scale(0.9);
+}
+
+a.column.card:hover {
+	transform: scale(1);
+}
+
